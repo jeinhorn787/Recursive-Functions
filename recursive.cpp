@@ -15,7 +15,7 @@ using std::endl;
 //the last letter of the temporary string is printed.  then the temporary
 //string is resized to have 1 less element.  the new sized temp array
 //is passed to the recursive call
-void reverseString(string input)
+int reverseString(string input)
 {
 	//temporary string
 	string temp = input;
